@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Weapons']
+
+roboflow:
+  workspace: small-object-detections-smart-surveillance-system
+  project: sod-sss-c6tz8
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/small-object-detections-smart-surveillance-system/sod-sss-c6tz8/dataset/5
